@@ -1,7 +1,7 @@
 <template>
-  <div class="container">
+  <div class="container my-4">
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-md-6 mb-3">
         <div class="card">
           <h5 class="card-header bg-info text-white">{{ label.data }}</h5>
 
@@ -43,21 +43,21 @@
         </div>
       </div>
 
-      <div class="col-sm-6">
+      <div class="col-md-6 mb-3">
         <info-box :box="this.getResultBox()"></info-box>
       </div>
     </div>
 
-    <div class="row my-4">
-      <div class="col-sm-4">
+    <div class="row">
+      <div class="col-md-4 mb-3">
         <info-box :box="this.getDecimoBox()"></info-box>
       </div>
 
-      <div class="col-sm-4">
+      <div class="col-md-4 mb-3">
         <info-box :box="this.getAguinaldoBox()"></info-box>
       </div>
 
-      <div class="col-sm-4">
+      <div class="col-md-4 mb-3">
         <info-box :box="this.getChorritoBox()"></info-box>
       </div>
     </div>

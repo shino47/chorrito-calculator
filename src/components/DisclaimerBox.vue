@@ -1,5 +1,5 @@
 <template>
-  <div class="container my-3">
+  <div class="container my-4">
     <p class="text-muted mb-1">
       <b>{{ note }}</b>: {{ content }}
     </p>
