@@ -102,7 +102,7 @@ export default class {
 
   static getChorritoIsr(salary, factor, months) {
     const annualIncome = salary * 13;
-    const aguinaldo = this.getAguinaldo(salary, months);
+    const aguinaldo = this.getAguinaldoBruto(salary, months);
     const income = this.getChorritoBruto(salary, factor, months);
     const isr1 = this.getIsr(annualIncome + aguinaldo, false);
     const isr2 = this.getIsr(income + annualIncome + aguinaldo, false);
