@@ -72,7 +72,7 @@
     total: 'Total',
     data: 'Datos',
     results: 'Resultados',
-    chorrito: 'Partipación de Utilidades',
+    chorrito: 'Participación de Utilidades',
     aguinaldo: 'Aguinaldo',
     decimo: 'Décimo',
     salary: 'Salario mensual',
