@@ -1,6 +1,6 @@
 # chorrito-calculator
 
-> Calculadora de chorrito, aguinaldo y décimo
+> Calculadora de décimo, aguinaldo y chorrito
 
 ## Build Setup
 
