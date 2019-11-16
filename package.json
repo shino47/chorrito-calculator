@@ -2,9 +2,10 @@
   "name": "chorrito-calculator",
   "description": "Calculadora de décimo, aguinaldo y chorrito",
   "version": "1.0.0",
-  "author": "flau",
+  "author": "shino47",
+  "homepage": "https://chorrito-calculator.netlify.com/",
+  "repository": "https://github.com/shino47/chorrito-calculator",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"

@@ -71,7 +71,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Diciembre Calculator',
+      title: 'Chorrito Calculator',
       template: './src/index.html',
       hash: true,
     })
